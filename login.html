@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Space</title>
+
+    <link
+      rel="stylesheet"
+      href="fonts/material-icon/css/material-design-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div>
+        <div class="siteName">
+          My Space
+        </div>
+        <div>
+        <ul>
+          <li><a class="bar" href="registration.html">Sign Up</a></li>
+          <li><a class="bar" href="#">About</a></li>
+          <li><a class="bar" href="#">Home</a></li>
+        </ul>
+        </div>
+      </div>
+      </nav>
+    </header>
+
+    <div class="main">
+      <section class="sign-in">
+        <div class="container">
+          <div class="signin-content">
+            <div class="signin-image">
+              <figure>
+                <img src="images/signin-image.jpg" alt="sing up image" />
+              </figure>
+              <a href="registration.html" class="signup-image-link"
+                >Create an account</a
+              >
+            </div>
+            <div class="signin-form">
+              <h2 class="form-title">Sign In</h2>
+              <form
+                method="post"
+                action=""
+                class="register-form"
+                id="login-form"
+              >
+                <div class="form-group">
+                  <label for="username"
+                    ><i class="zmdi zmdi-account material-icons-name"></i
+                  ></label>
+                  <table>
+                    <tr>
+                      <td>
+                        <input
+                          type="text"
+                          name="username"
+                          id="username"
+                          placeholder="Your Name"
+                        />
+                      </td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="form-group">
+                  <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                  <table>
+                    <tr>
+                      <td>
+                        <input
+                          type="password"
+                          name="password"
+                          class="password"
+                          placeholder="Password"
+                        />
+                      </td>
+                      <td>
+                        <i class="eye zmdi zmdi-eye-off" id="password"></i>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="form-group form-button">
+                  <input
+                    type="submit"
+                    name="signin"
+                    id="signin"
+                    class="form-submit"
+                    value="Log in"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div>
+        <a href="http://ayushig-7.github.io/Portfolio/">
+          Ayushi Gupta
+        </a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
